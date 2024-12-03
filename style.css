@@ -1,0 +1,45 @@
+
+
+.tabla1 {
+    border: 1px solid red;
+    border-collapse: separate; 
+    border-spacing: 0; 
+}
+
+.tabla1 td {
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla2 {
+    border: 1px solid red;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.tabla2 td {
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla2 .destaca{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.tabla3 {
+    border: 4px double green; 
+    border-collapse: collapse; 
+    width: 40%; 
+    table-layout: fixed;
+}
+
+.tabla3 td {
+    border: 4px double green;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla3 td[rowspan] {
+    vertical-align: middle; 
+}
